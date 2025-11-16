@@ -1,4 +1,41 @@
-body{
-    margin: 0px;
-    padding: 0px;
+header{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    background-color: #1f2937;
+    border-radius: 10px;
+}
+
+.toolbar{
+    display: flex;
+    margin-left: auto;
+}
+
+.controls{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    padding: 10px;
+    background: #111827;
+    border-radius: 10px;
+}
+
+.toolBtn{
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #9ca3af;
+}
+
+.colors{
+    display: flex;
+    gap: 6px;
+}
+
+#ClearBtn{
+    margin-left: 10px;
+    margin-right: 10px;
 }

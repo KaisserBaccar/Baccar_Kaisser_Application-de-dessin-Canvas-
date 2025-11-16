@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet" >
+    <title>Application de dessin</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Application de dessin - Canvas</h1>
+        <div class="toolbar">
+            <div class="controls" role="toolbar">
+                <div>
+                    <button id="brushBtn" class="toolBtn">Pinceau</button>
+                    <button id="eraserBtn" class="toolBtn">Gomme</button>
+                </div>
+            </div>
+            <div id="colors"></div>
+            <label for="size">Taille</label>
+            <input id="size" type="range" min="1" max="60" value="6" class="size-range">
+            <button id="ClearBtn" class="toolBtn">Clear</button>
+            <button id="SaveBtn" class="toolBtn">Sauvegarder</button> 
+        </div>
+    </header>
 </body>
 </html>
