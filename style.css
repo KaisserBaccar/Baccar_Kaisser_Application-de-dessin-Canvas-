@@ -30,7 +30,7 @@ header{
     color: #9ca3af;
 }
 
-.colors{
+#colors{
     display: flex;
     gap: 6px;
 }
@@ -38,4 +38,12 @@ header{
 #ClearBtn{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.color-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
 }
