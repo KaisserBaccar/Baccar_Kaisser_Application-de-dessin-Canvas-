@@ -11,11 +11,11 @@
         <h1>Application de dessin - Canvas</h1>
         <div class="toolbar">
             <div class="controls" role="toolbar">
-                <div>
                     <button id="brushBtn" class="toolBtn">Pinceau</button>
                     <button id="eraserBtn" class="toolBtn">Gomme</button>
-                </div>
+                    <button id="bucketBtn" class="toolBtn"></button>
             </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcKocbUDNW9cTiqPWHNM3GuxfM-dOVYoyC-g&s" class="toolbar-logo">
             <div id="colors"></div>
             <label for="size">Taille</label>
             <input id="size" type="range" min="1" max="60" value="6" class="size-range">
@@ -27,5 +27,8 @@
         <canvas id="canvas"></canvas>   
     </div>
     <script src="app.js"></script>
+    <footer>
+        <p id="nom">Kaisser Baccar MI2B</p>
+    </footer>
 </body>
 </html>
