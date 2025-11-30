@@ -7,7 +7,7 @@ const colorsElement = document.getElementById("colors");
 const drawingCanvas = document.getElementById("canvas");
 const context = drawingCanvas.getContext("2d");
 
-drawingCanvas.width = drawingCanvas.offsetWidth;
+ drawingCanvas.width = drawingCanvas.offsetWidth;
 drawingCanvas.height = drawingCanvas.offsetHeight;
 
 COLORS.forEach(function(colorValue) {
@@ -86,6 +86,6 @@ saveButton.onclick = function() {
     const imageData = drawingCanvas.toDataURL("image/png");
     const downloadLink = document.createElement("a");
     downloadLink.href = imageData;
-    downloadLink.download = "dessin.png";
+    downloadLink.download = "taswira.png";
     downloadLink.click();
 };
