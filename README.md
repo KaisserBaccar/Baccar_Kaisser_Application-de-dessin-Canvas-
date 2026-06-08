@@ -21,5 +21,5 @@ comment sauvegarder le canvas en PNG via toDataURL(), comment faire un outil gom
 
 Difficultés rencontrées : Les couleurs ne s'affichaient pas , problème de design quand la toolbar changeait de taille , Le canvas ne dessinait rien (taille non définie → width/height manquants)
 
-Solutions apportées : Recherche de solutions (MDN Canvas API, StackOverflow, ChatGPT), test et débogage sur Chrome DevTools
+Solutions apportées : Recherche de solutions (MDN Canvas API, StackOverflow), test et débogage sur Chrome DevTools
 
